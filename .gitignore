@@ -1,0 +1,8 @@
+# MacOs
+.Ds_Store
+
+# egg-info
+*.egg-info/
+
+# Ides
+.idea/

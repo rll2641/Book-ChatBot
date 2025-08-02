@@ -1,0 +1,24 @@
+# pip install --upgrade pip setuptolls wheel
+[build-system]
+requires = ["setuptools>= 80.9.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chat-bot_ex1"
+version = "0.1.0"
+description = "Refactoring Toy Project4"
+requires-python = ">=3.11"
+authors = [
+    {name = "Cho", email = "choji2641@gmail.com"},
+]
+dependencies = [
+
+]
+
+[tool.setuptools]
+packages = { find = {} }
+
+# pytest 경로 및 이름 지정
+[tool.pytest.ini_option]
+testpaths = ["test"]
+python_files = ["test_*.py"]
